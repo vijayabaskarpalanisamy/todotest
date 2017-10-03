@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-10-03T16:17:03</date>
+  <millis>1507027623734</millis>
+  <sequence>0</sequence>
+  <logger>org.apache.catalina.core.StandardService</logger>
+  <level>INFO</level>
+  <class>org.apache.catalina.core.StandardService</class>
+  <method>startInternal</method>
+  <thread>15</thread>
+  <message>Starting service [Tomcat]</message>
+</record>
+<record>
+  <date>2017-10-03T16:17:03</date>
+  <millis>1507027623877</millis>
+  <sequence>1</sequence>
+  <logger>org.apache.catalina.core.StandardEngine</logger>
+  <level>INFO</level>
+  <class>org.apache.catalina.core.StandardEngine</class>
+  <method>startInternal</method>
+  <thread>15</thread>
+  <message>Starting Servlet Engine: Apache Tomcat/8.5.16</message>
+</record>
+<record>
+  <date>2017-10-03T16:17:04</date>
+  <millis>1507027624138</millis>
+  <sequence>2</sequence>
+  <logger>org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]</logger>
+  <level>INFO</level>
+  <class>org.apache.catalina.core.ApplicationContext</class>
+  <method>log</method>
+  <thread>19</thread>
+  <message>Initializing Spring embedded WebApplicationContext</message>
+</record>
+<record>
+  <date>2017-10-03T16:17:06</date>
+  <millis>1507027626264</millis>
+  <sequence>3</sequence>
+  <logger>org.hibernate.jpa.internal.util.LogHelper</logger>
+  <level>INFO</level>
+  <class>org.hibernate.jpa.internal.util.LogHelper</class>
+  <method>logPersistenceUnitInformation</method>
+  <thread>15</thread>
+  <message>HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]</message>
+</record>
+<record>
+  <date>2017-10-03T16:17:06</date>
+  <millis>1507027626604</millis>
+  <sequence>4</sequence>
+  <logger>org.hibernate.Version</logger>
+  <level>INFO</level>
+  <class>org.hibernate.Version</class>
+  <method>logVersion</method>
+  <thread>15</thread>
+  <message>HHH000412: Hibernate Core {5.0.12.Final}</message>
+</record>
+<record>
+  <date>2017-10-03T16:17:06</date>
+  <millis>1507027626604</millis>
+  <sequence>5</sequence>
+  <logger>org.hibernate.cfg.Environment</logger>
+  <level>INFO</level>
+  <class>org.hibernate.cfg.Environment</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>15</thread>
+  <message>HHH000206: hibernate.properties not found</message>
+</record>
+<record>
+  <date>2017-10-03T16:17:06</date>
+  <millis>1507027626620</millis>
+  <sequence>6</sequence>
+  <logger>org.hibernate.cfg.Environment</logger>
+  <level>INFO</level>
+  <class>org.hibernate.cfg.Environment</class>
+  <method>buildBytecodeProvider</method>
+  <thread>15</thread>
+  <message>HHH000021: Bytecode provider name : javassist</message>
+</record>
+<record>
+  <date>2017-10-03T16:17:06</date>
+  <millis>1507027626844</millis>
+  <sequence>7</sequence>
+  <logger>org.hibernate.annotations.common.Version</logger>
+  <level>INFO</level>
+  <class>org.hibernate.annotations.common.reflection.java.JavaReflectionManager</class>
+  <method>&lt;clinit&gt;</method>
+  <thread>15</thread>
+  <message>HCANN000001: Hibernate Commons Annotations {5.0.1.Final}</message>
+</record>
+<record>
+  <date>2017-10-03T16:17:07</date>
+  <millis>1507027627875</millis>
+  <sequence>8</sequence>
+  <logger>org.hibernate.dialect.Dialect</logger>
+  <level>INFO</level>
+  <class>org.hibernate.dialect.Dialect</class>
+  <method>&lt;init&gt;</method>
+  <thread>15</thread>
+  <message>HHH000400: Using dialect: org.hibernate.dialect.H2Dialect</message>
+</record>
+<record>
+  <date>2017-10-03T16:17:10</date>
+  <millis>1507027630897</millis>
+  <sequence>9</sequence>
+  <logger>org.hibernate.tool.hbm2ddl.SchemaExport</logger>
+  <level>INFO</level>
+  <class>org.hibernate.tool.hbm2ddl.SchemaExport</class>
+  <method>execute</method>
+  <thread>15</thread>
+  <message>HHH000227: Running hbm2ddl schema export</message>
+</record>
+<record>
+  <date>2017-10-03T16:17:10</date>
+  <millis>1507027630918</millis>
+  <sequence>10</sequence>
+  <logger>org.hibernate.tool.hbm2ddl.SchemaExport</logger>
+  <level>INFO</level>
+  <class>org.hibernate.tool.hbm2ddl.SchemaExport</class>
+  <method>execute</method>
+  <thread>15</thread>
+  <message>HHH000230: Schema export complete</message>
+</record>
+<record>
+  <date>2017-10-03T16:17:15</date>
+  <millis>1507027635535</millis>
+  <sequence>11</sequence>
+  <logger>org.apache.coyote.http11.Http11NioProtocol</logger>
+  <level>SEVERE</level>
+  <class>org.apache.coyote.AbstractProtocol</class>
+  <method>start</method>
+  <thread>15</thread>
+  <message>Failed to start end point associated with ProtocolHandler ["http-nio-8080"]</message>
+  <exception>
+    <message>java.net.BindException: Address already in use: bind</message>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind0</method>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind</method>
+      <line>433</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.Net</class>
+      <method>bind</method>
+      <line>425</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.ServerSocketChannelImpl</class>
+      <method>bind</method>
+      <line>223</line>
+    </frame>
+    <frame>
+      <class>sun.nio.ch.ServerSocketAdaptor</class>
+      <method>bind</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>org.apache.tomcat.util.net.NioEndpoint</class>
+      <method>bind</method>
+      <line>210</line>
+    </frame>
+    <frame>
+      <class>org.apache.tomcat.util.net.AbstractEndpoint</class>
+      <method>start</method>
+      <line>990</line>
+    </frame>
+    <frame>
+      <class>org.apache.coyote.AbstractProtocol</class>
+      <method>start</method>
+      <line>635</line>
+    </frame>
+    <frame>
+      <class>org.apache.catalina.connector.Connector</class>
+      <method>startInternal</method>
+      <line>1022</line>
+    </frame>
+    <frame>
+      <class>org.apache.catalina.util.LifecycleBase</class>
+      <method>start</method>
+      <line>150</line>
+    </frame>
+    <frame>
+      <class>org.apache.catalina.core.StandardService</class>
+      <method>addConnector</method>
+      <line>225</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer</class>
+      <method>addPreviouslyRemovedConnectors</method>
+      <line>250</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer</class>
+      <method>start</method>
+      <line>193</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.context.embedded.EmbeddedWebApplicationContext</class>
+      <method>startEmbeddedServletContainer</method>
+      <line>297</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.context.embedded.EmbeddedWebApplicationContext</class>
+      <method>finishRefresh</method>
+      <line>145</line>
+    </frame>
+    <frame>
+      <class>org.springframework.context.support.AbstractApplicationContext</class>
+      <method>refresh</method>
+      <line>546</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.context.embedded.EmbeddedWebApplicationContext</class>
+      <method>refresh</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.SpringApplication</class>
+      <method>refresh</method>
+      <line>693</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.SpringApplication</class>
+      <method>refreshContext</method>
+      <line>360</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.SpringApplication</class>
+      <method>run</method>
+      <line>303</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.SpringApplication</class>
+      <method>run</method>
+      <line>1118</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.SpringApplication</class>
+      <method>run</method>
+      <line>1107</line>
+    </frame>
+    <frame>
+      <class>com.kgfsl.fixme.FixmeApplication</class>
+      <method>main</method>
+      <line>9</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.maven.AbstractRunMojo$LaunchRunner</class>
+      <method>run</method>
+      <line>527</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>748</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2017-10-03T16:17:15</date>
+  <millis>1507027635551</millis>
+  <sequence>12</sequence>
+  <logger>org.apache.catalina.core.StandardService</logger>
+  <level>SEVERE</level>
+  <class>org.apache.catalina.core.StandardService</class>
+  <method>addConnector</method>
+  <thread>15</thread>
+  <message>Failed to start connector [Connector[HTTP/1.1-8080]]</message>
+  <exception>
+    <message>org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]</message>
+    <frame>
+      <class>org.apache.catalina.util.LifecycleBase</class>
+      <method>start</method>
+      <line>167</line>
+    </frame>
+    <frame>
+      <class>org.apache.catalina.core.StandardService</class>
+      <method>addConnector</method>
+      <line>225</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer</class>
+      <method>addPreviouslyRemovedConnectors</method>
+      <line>250</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer</class>
+      <method>start</method>
+      <line>193</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.context.embedded.EmbeddedWebApplicationContext</class>
+      <method>startEmbeddedServletContainer</method>
+      <line>297</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.context.embedded.EmbeddedWebApplicationContext</class>
+      <method>finishRefresh</method>
+      <line>145</line>
+    </frame>
+    <frame>
+      <class>org.springframework.context.support.AbstractApplicationContext</class>
+      <method>refresh</method>
+      <line>546</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.context.embedded.EmbeddedWebApplicationContext</class>
+      <method>refresh</method>
+      <line>122</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.SpringApplication</class>
+      <method>refresh</method>
+      <line>693</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.SpringApplication</class>
+      <method>refreshContext</method>
+      <line>360</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.SpringApplication</class>
+      <method>run</method>
+      <line>303</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.SpringApplication</class>
+      <method>run</method>
+      <line>1118</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.SpringApplication</class>
+      <method>run</method>
+      <line>1107</line>
+    </frame>
+    <frame>
+      <class>com.kgfsl.fixme.FixmeApplication</class>
+      <method>main</method>
+      <line>9</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>org.springframework.boot.maven.AbstractRunMojo$LaunchRunner</class>
+      <method>run</method>
+      <line>527</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <method>run</method>
+      <line>748</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2017-10-03T16:17:15</date>
+  <millis>1507027635610</millis>
+  <sequence>13</sequence>
+  <logger>org.apache.catalina.core.StandardService</logger>
+  <level>INFO</level>
+  <class>org.apache.catalina.core.StandardService</class>
+  <method>stopInternal</method>
+  <thread>15</thread>
+  <message>Stopping service [Tomcat]</message>
+</record>
+<record>
+  <date>2017-10-03T16:17:15</date>
+  <millis>1507027635819</millis>
+  <sequence>14</sequence>
+  <logger>org.hibernate.tool.hbm2ddl.SchemaExport</logger>
+  <level>INFO</level>
+  <class>org.hibernate.tool.hbm2ddl.SchemaExport</class>
+  <method>execute</method>
+  <thread>15</thread>
+  <message>HHH000227: Running hbm2ddl schema export</message>
+</record>
+<record>
+  <date>2017-10-03T16:17:15</date>
+  <millis>1507027635834</millis>
+  <sequence>15</sequence>
+  <logger>org.hibernate.tool.hbm2ddl.SchemaExport</logger>
+  <level>INFO</level>
+  <class>org.hibernate.tool.hbm2ddl.SchemaExport</class>
+  <method>execute</method>
+  <thread>15</thread>
+  <message>HHH000230: Schema export complete</message>
+</record>
+</log>
